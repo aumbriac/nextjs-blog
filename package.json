@@ -1,0 +1,41 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/core": "^0.34.1",
+    "@tailwindcss/typography": "^0.5.14",
+    "axios": "^1.7.4",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.3.28",
+    "gray-matter": "^4.0.3",
+    "marked": "^14.0.0",
+    "mongoose": "^8.4.4",
+    "next": "14.2.4",
+    "next-auth": "^4.24.7",
+    "prompts": "^2.4.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "simplex-noise": "^4.0.3",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
